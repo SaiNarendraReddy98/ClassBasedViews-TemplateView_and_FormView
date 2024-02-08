@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserting_data_by_TV</title>
+</head>
+<body>
+    <center>
+        <form method="POST">
+            {% csrf_token %}
+            <h1>Insert Data by TemplateView class</h1>
+
+                {{IFO.as_p}}
+
+            <input type="submit" value="Inserting_data_by_TV"> 
+        </form>
+    </center>
+</body>
+</html>
